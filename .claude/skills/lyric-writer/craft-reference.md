@@ -67,14 +67,16 @@ Before finalizing any lyrics, verify:
 2. Are there any orphan lines that should rhyme with something but don't?
 3. Is syllable count roughly consistent across corresponding lines? (see tolerance in Line Length table)
 4. Are there filler phrases ("spoke the words", "you know what I mean") padding lines?
-5. Does the rhyme scheme match the genre? (Don't use AABB couplets for a folk ballad, don't use ABCB for hip-hop)
-6. Say the lyrics without melody as plain prose — do they sound natural for the genre's vocal style?
+5. Do quoted/paraphrased lines come from sourced material (for documentary albums)?
+6. Does the rhyme scheme match the genre? (Don't use AABB couplets for a folk ballad, don't use ABCB for hip-hop)
+7. Say the lyrics without melody as plain prose — do they sound natural for the genre's vocal style?
 
 ### Common Anti-Patterns (All Genres)
 
 - ❌ Using the wrong rhyme scheme for the genre (hip-hop couplets in a folk song, etc.)
 - ❌ Forcing perfect rhymes where near rhymes sound more natural
 - ❌ Using filler lines to set up quotes ("he stood up and spoke the words")
+- ❌ Inventing fake quotes for real people when source quotes exist
 - ❌ Ending a verse on a line that doesn't connect to its rhyme partner
 - ❌ Inconsistent line lengths that break the vocal pocket
 - ❌ Cliché phrases: "cold as ice," "broke my heart," "by my side," "set me free," "tonight" (at line endings), "learning to fly"
