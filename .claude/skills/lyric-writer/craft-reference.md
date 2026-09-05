@@ -67,16 +67,14 @@ Before finalizing any lyrics, verify:
 2. Are there any orphan lines that should rhyme with something but don't?
 3. Is syllable count roughly consistent across corresponding lines? (see tolerance in Line Length table)
 4. Are there filler phrases ("spoke the words", "you know what I mean") padding lines?
-5. Do quoted/paraphrased lines come from sourced material (for documentary albums)?
-6. Does the rhyme scheme match the genre? (Don't use AABB couplets for a folk ballad, don't use ABCB for hip-hop)
-7. Say the lyrics without melody as plain prose — do they sound natural for the genre's vocal style?
+5. Does the rhyme scheme match the genre? (Don't use AABB couplets for a folk ballad, don't use ABCB for hip-hop)
+6. Say the lyrics without melody as plain prose — do they sound natural for the genre's vocal style?
 
 ### Common Anti-Patterns (All Genres)
 
 - ❌ Using the wrong rhyme scheme for the genre (hip-hop couplets in a folk song, etc.)
 - ❌ Forcing perfect rhymes where near rhymes sound more natural
 - ❌ Using filler lines to set up quotes ("he stood up and spoke the words")
-- ❌ Inventing fake quotes for real people when source quotes exist
 - ❌ Ending a verse on a line that doesn't connect to its rhyme partner
 - ❌ Inconsistent line lengths that break the vocal pocket
 - ❌ Cliché phrases: "cold as ice," "broke my heart," "by my side," "set me free," "tonight" (at line endings), "learning to fly"
@@ -104,15 +102,15 @@ Before finalizing any lyrics, verify:
 
 ## Song Length
 
-Songs that are too long (800+ words) cause Suno to rush, compress sections, or skip lyrics. Songs that are too short produce tracks under 3 minutes — fine if intentional, but usually not what users want.
+Songs that are too long (800+ words) force the vocal to rush, compress sections, or drop lines. Songs that are too short produce tracks under 3 minutes — fine if intentional, but usually not what users want.
 
 ### Default Target Duration
 
 **3:30–5:00 minutes** for all genres unless the user specifies otherwise. This is the standard range for streaming platforms and what listeners expect.
 
-### Word Count Targets by Genre (Suno)
+### Word Count Targets by Genre
 
-These targets produce tracks in the 3:30–5:00 range on Suno. The previous lower targets (e.g., 150 words for electronic) produce 2:00–2:30 tracks.
+These targets produce tracks in the 3:30–5:00 range. Lower targets (e.g., 150 words for electronic) produce 2:00–2:30 tracks.
 
 | Genre | Target Duration | Word Count | Structure |
 |-------|-----------------|------------|-----------|
@@ -126,7 +124,7 @@ These targets produce tracks in the 3:30–5:00 range on Suno. The previous lowe
 
 ### Instrumental Tags Count as Runtime
 
-Suno instrumental tags (`[Instrumental Break]`, `[Synth Solo]`, `[Guitar Solo]`, `[Drop]`, `[Interlude]`, etc.) add approximately **20–40 seconds each** to the track. Factor these into duration estimates. A track with 220 words + 2 instrumental breaks will run longer than 220 words alone.
+Instrumental sections (`[Instrumental Break]`, `[Synth Solo]`, `[Guitar Solo]`, `[Drop]`, `[Interlude]`, etc.) add approximately **20–40 seconds each** to the track. Factor these into duration estimates. A track with 220 words + 2 instrumental breaks will run longer than 220 words alone.
 
 ### Structure Defaults
 
@@ -139,13 +137,13 @@ Suno instrumental tags (`[Instrumental Break]`, `[Synth Solo]`, `[Guitar Solo]`,
 
 ### How to Hit Duration Targets
 
-**Add more sections, not longer sections.** Per-section maximums (see Section Length Limits below) are correct for Suno pacing. The way to reach 3:30+ is:
+**Add more sections, not longer sections.** Per-section maximums (see Section Length Limits below) are correct for pacing. The way to reach 3:30+ is:
 - Add a **3rd verse** (most effective)
 - Add a **pre-chorus** before each chorus
 - Add an **instrumental break** or solo
 - Add a **bridge** if missing
 
-Do NOT write 10-line verses or 8-line choruses — Suno will rush them.
+Do NOT write 10-line verses or 8-line choruses — they get rushed.
 
 ### Length Limits
 
@@ -155,7 +153,7 @@ Do NOT write 10-line verses or 8-line choruses — Suno will rush them.
 
 ### Section Length Limits by Genre
 
-**Why this matters**: Suno rushes, compresses, or skips content when sections are too long. These are hard limits — trim before presenting.
+**Why this matters**: Over-long sections get rushed, compressed, or skipped. These are hard limits — trim before presenting.
 
 #### Hip-Hop / Rap / Trap / Drill / Grime / Phonk / Nerdcore
 
@@ -273,30 +271,30 @@ Do NOT write 10-line verses or 8-line choruses — Suno will rush them.
 1. **Count lines per section** after drafting. Compare against genre table above.
 2. **If a section exceeds its max**: Trim it. Don't ask — cut it down, then present.
 3. **Hip-hop verse over 8 lines**: Split into two verses or cut. No exceptions.
-4. **Any chorus over 6 lines**: Trim. A long chorus loses its punch and causes Suno to rush.
+4. **Any chorus over 6 lines**: Trim. A long chorus loses its punch and forces the vocal to rush.
 5. **Electronic verse over 6 lines**: Cut. Electronic tracks need space, not walls of text.
 6. **Punk sections over limits**: Punk is short and fast. If it's long, it's not punk.
 7. **When unsure about genre**: Use the Pop/Rock defaults (6–8 verse, 4–6 chorus, 4 bridge).
 8. **Also check BPM-aware limits** in the Lyric Density & Pacing section below — a genre may allow 8-line verses at fast tempo but only 4 at slow tempo.
 
-**Suno-specific reasoning**: Long sections cause:
+**Why long sections fail**:
 - Vocal rushing (cramming words into fixed musical time)
 - Loss of clarity (words blur together)
-- Section compression (Suno shortens the music to fit)
-- Skipped lyrics (Suno drops lines entirely)
+- Section compression (the music shortens to fit)
+- Skipped lyrics (lines get dropped entirely)
 
 ---
 
 
 ---
 
-## Lyric Density & Pacing (Suno)
+## Lyric Density & Pacing
 
-Suno rushes through dense verse blocks. Verse length must match tempo and feel. **The slower the BPM, the fewer lines Suno can handle** without rushing, compressing, or skipping.
+Dense verse blocks get rushed. Verse length must match tempo and feel. **The slower the BPM, the fewer lines a verse can carry** without rushing, compressing, or skipping.
 
-**Genre-specific Suno verse limits are in each genre's README** under "Lyric Conventions → Density/pacing (Suno)". Always check the genre README for the track you're writing.
+**Genre-specific verse limits are in each genre's README** under "Lyric Conventions → Density/pacing". Always check the genre README for the track you're writing.
 
-### Suno Verse Length Defaults
+### Verse Length Defaults
 
 | Genre Family | Default Lines/Verse | Max Safe | Topics/Verse | Key Rule |
 |---|---|---|---|---|
@@ -338,7 +336,7 @@ When a genre README doesn't specify, use this table:
 
 ### Red Flags
 
-- 8-line verse at any BPM under 100 — too dense for Suno
+- 8-line verse at any BPM under 100 — too dense
 - Verse reads like a list of names/facts — it's a Wikipedia entry, not a verse
 - Track concept says "laid back" but verses are wall-to-wall syllables
 - More than 3 proper nouns introduced in a single verse
@@ -351,13 +349,9 @@ When a verse is too dense:
 2. Let each topic have at least a full couplet (2 lines) to land
 3. Re-read with the BPM in mind — can you actually sing/rap this at tempo without rushing?
 
-### Streaming Exception
-
-Streaming lyrics (distributor text) can have longer verse blocks since they aren't generated by Suno. But verse BREAKS should still align with the Suno structure so the text matches what's actually sung.
-
 ### Process
 
-Before finalizing any track, ASK: "Does the verse length match the BPM and mood described in Musical Direction?" Check the genre README's `Density/pacing (Suno)` line. If the verse exceeds the default, flag it to the user.
+Before finalizing any track, ASK: "Does the verse length match the BPM and mood described in Musical Direction?" Check the genre README's `Density/pacing` line. If the verse exceeds the default, flag it to the user.
 
 ---
 

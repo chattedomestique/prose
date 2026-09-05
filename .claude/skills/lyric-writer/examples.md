@@ -405,7 +405,7 @@ Gotta make it to the bridge before they catch me there
 Breathless at the river, looking back at what I'm leaving
 Everything I knew is burning, there's no turning back
 ```
-Six packed lines at 75 BPM — Suno will rush or compress.
+Six packed lines at 75 BPM — the vocal has to rush to fit, and the lines blur together.
 
 **Fixed (matches tempo):**
 ```
